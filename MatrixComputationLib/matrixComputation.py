@@ -1,3 +1,4 @@
+# defining the matrices
 a=[
     [1,2,3],
     [4,5,6],
@@ -10,6 +11,25 @@ b=[
   ]
 c =[[1,2]]
 d=[[1,2,3],[4,5,6]]
+
+# checking the contraints
+def multiplication_constraint_checking(a,b):
+    row = len(b)
+    col = len(a[0])
+    if row == col:
+        return True
+    else:
+        return False
+
+def add_sub_constraint_checking(a,b):
+    a_rows = len(a)
+    b_rows = len(b)
+    a_cols = len(a[0])
+    b_cols = len(b[0])
+    if a_rows == b_rows and a_cols == b_cols:
+        return True
+    else:
+        return False
 
 #Matrix-Addition
 def matrix_addition(a,b):
