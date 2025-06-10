@@ -42,3 +42,22 @@ def matrix_addition(a,b):
       for j in range(len(a[0])):
           results_a[i][j] = a[i][j]+b[i][j]
     return results_a
+
+#matrix-multiplication
+
+def matrix_multiplication(a, b):
+    a_rows = len(a)
+    a_cols = len(a[0])
+    b_cols = len(b[0])
+    results_m = []
+
+    if not multiplication_constraint_checking(a,b):
+      return AssertionError("demision must be equal. plead try again")
+    else:
+        results_m = [[0 for _ in range(b_cols)] for _ in range(a_rows)]
+    print(a,b)
+    for i in range(a_rows):
+      for j in range(b_cols):
+        for k in range(b_cols):
+            results_m[i][j] += a[i][k] * b[k][j]
+    return results_m
