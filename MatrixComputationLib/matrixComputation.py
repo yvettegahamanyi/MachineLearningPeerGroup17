@@ -47,7 +47,6 @@ def matrix_addition(a,b):
 
 def matrix_multiplication(a, b):
     a_rows = len(a)
-    a_cols = len(a[0])
     b_cols = len(b[0])
     results_m = []
 
