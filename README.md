@@ -54,7 +54,7 @@ alumathPeerGroup17/
 ### Python Library
 
 1. To perform multiplication
-# alumathpeergroup17
+## alumathpeergroup17
 
 alumathpeergroup17 is  lightweight Python library for basic matrix computations (addition, subtraction, multiplication) with dimension checks.
 1. To perform multiplicatio
@@ -63,14 +63,15 @@ alumathpeergroup17 is  lightweight Python library for basic matrix computations 
 ```bash
 pip install alumathpeergroup17
 ```
-## Import the library into your desired file and perfrom the operations
+## Import the library  and perform your operations
+```
 from alumathpeergroup17 import matrix_multiplication
 
 a = [[1, 2], [3, 4]]
 b = [[5, 6], [7, 8]]
 
 print(matrix_multiplication(a, b))
-
+```
 ---
 
 
