@@ -73,3 +73,6 @@ def matrix_multiplication(a, b):
         for k in range(b_cols):
             results_m[i][j] += a[i][k] * b[k][j]
     return results_m
+  
+for i in matrix_multiplication(a,b):
+    print(i) 
