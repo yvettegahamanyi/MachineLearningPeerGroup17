@@ -53,24 +53,26 @@ alumathPeerGroup17/
 
 ### Python Library
 
-1. To perform subtraction
+1. To perform multiplication
+# alumathpeergroup17
 
-```
-a=[
-    [1,2,3],
-    [4,5,6],
-    [7,8,9]
-  ]
-b=[
-    [1,2,3],
-    [4,5,6],
-    [7,8,9]
-  ]
+alumathpeergroup17 is  lightweight Python library for basic matrix computations (addition, subtraction, multiplication) with dimension checks.
+1. To perform multiplicatio
+## Install
 
-alumathPeerGroup17.matrix_substraction(a, b)
+```bash
+pip install alumathpeergroup17
 ```
+## Import the library into your desired file and perfrom the operations
+from alumathpeergroup17 import matrix_multiplication
+
+a = [[1, 2], [3, 4]]
+b = [[5, 6], [7, 8]]
+
+print(matrix_multiplication(a, b))
 
 ---
+
 
 ## 🖼 Screenshots
 
