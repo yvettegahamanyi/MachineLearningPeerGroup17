@@ -1,6 +1,6 @@
-# 📊 alumathPeerGroup17: PCA Project
+# 📊 alumathPeerGroup17: Formative 2 - Principle Component Analysis
 
-This project explores **Principal Component Analysis (PCA)** as part of the *Alumath Peer Group* coursework. It includes a dataset, screenshots of our results, and the Google Colab notebook we used for implementing PCA from scratch.
+This project explores assigned coursework. It includes **Principal Component Analysis (PCA)** analysis on a dataset, PDF to show deeper understanding of finding eigenvalues and eigenvectors of the given matrix and a python library that performs different actions on two matrices.
 
 ---
 
@@ -9,8 +9,8 @@ This project explores **Principal Component Analysis (PCA)** as part of the *Alu
 alumathPeerGroup17/
 ├── content/ # Contains the raw dataset used for PCA
 ├── eigen-values and vectors/ # Screenshots and PCA computation results
+├── MatrixComputationLib/ # codes for the library codes
 └── PCA_colab_notebook.ipynb # Main Google Colab file used for PCA
-
 
 ---
 
@@ -19,6 +19,7 @@ alumathPeerGroup17/
 - Understand the core steps of PCA (centering, covariance, eigendecomposition)
 - Apply PCA to a real dataset
 - Visualize the results using screenshots and notebook outputs
+- create a library that performs different actions on two matrices
 
 ---
 
@@ -35,6 +36,8 @@ alumathPeerGroup17/
 
 ## 🚀 How to Use
 
+### PCA_colab_notebook
+
 1. Open the file `PCA_colab_notebook.ipynb` in Google Colab or Jupyter Notebook.
 2. Run each cell to:
    - Load and explore the dataset
@@ -44,13 +47,35 @@ alumathPeerGroup17/
    - Select top principal components based on explained variance
    - Project the data onto lower dimensions
 
+### Eigenvectors and Eigenvalues Calculations
+
+1. open the pdf file using your browser or other pdf readers to be able to read our calculations
+
+### Python Library
+
+1. To perform subtraction
+
+```
+a=[
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+  ]
+b=[
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+  ]
+
+alumathPeerGroup17.matrix_substraction(a, b)
+```
+
 ---
 
 ## 🖼 Screenshots
 
 Visual results (such as eigenvalue plots, covariance matrices, and projections) can be found in:
 eigen-values and vectors/
-
 
 ---
 
