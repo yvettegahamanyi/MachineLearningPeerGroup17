@@ -43,6 +43,19 @@ def matrix_addition(a,b):
           results_a[i][j] = a[i][j]+b[i][j]
     return results_a
 
+#matrix-subtraction
+
+def matrix_substraction(a, b):
+  results_s = []
+  if not add_sub_constraint_checking(a, b):
+    return AssertionError("Matrix substraction is allowed only when rows and cols are equal")
+  else:
+    results_s   = [[0 for _ in range(len(a[0]))] for _ in range(len(a))]
+
+  for i in range(len(a)):
+    for j in range(len(a[0])):
+     results_s[i][j] = a[i][j] - b[i][j]
+  return results_s
 #matrix-multiplication
 
 def matrix_multiplication(a, b):
