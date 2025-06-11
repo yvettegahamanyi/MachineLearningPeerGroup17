@@ -72,6 +72,9 @@ b = [[5, 6], [7, 8]]
 
 print(matrix_multiplication(a, b))
 ```
+## Output
+```[[19, 22], [43, 50]]
+```
 ---
 
 
